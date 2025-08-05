@@ -28,7 +28,7 @@ android {
 chaquopy {
     defaultConfig {
         pip {
-            install("--upgrade yt-dlp")
+            install("--upgrade", "yt-dlp")
         }
     }
 }
