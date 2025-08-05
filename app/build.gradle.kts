@@ -27,8 +27,10 @@ android {
 
 chaquopy {
     defaultConfig {
+        version = "3.12"
         pip {
-            install("--upgrade", "yt-dlp")
+            options("--upgrade")
+            install("yt-dlp")
         }
     }
 }
