@@ -15,7 +15,7 @@ android {
         versionName = "1.0"
 
         ndk {
-            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64", "x86")
+            abiFilters += listOf("arm64-v8a")
         }
     }
 
@@ -28,7 +28,7 @@ android {
 chaquopy {
     defaultConfig {
         pip {
-            install("yt-dlp")
+            install("--upgrade yt-dlp")
         }
     }
 }
