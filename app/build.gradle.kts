@@ -32,6 +32,15 @@ chaquopy {
             options("--upgrade")
             install("yt-dlp")
             install("pycryptodomex")
+            install("certifi")
+            install("mutagen")
+            install("websockets")
+            install("brotli")
+            install("aria2p")
+            install("PySocks")
+            install("httpx")
+            install("pyOpenSSL")
+            install("pycurl")
         }
     }
 }
